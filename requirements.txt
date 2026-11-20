@@ -1,0 +1,19 @@
+# Forge Labs AI Voice Agent — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# LiveKit Agents framework + plugins
+livekit-agents>=1.8.0
+livekit-plugins-deepgram>=1.8.0
+livekit-plugins-elevenlabs>=1.8.0
+livekit-plugins-openai>=1.8.0
+livekit-plugins-silero>=1.8.0
+livekit-plugins-google>=1.8.0
+
+# FastAPI for sidecar server (health checks / lead management)
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# HTTP client & utilities
+httpx>=0.27.0
+python-dotenv>=1.0.0
+loguru>=0.7.0
